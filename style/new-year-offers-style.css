@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -60,20 +61,70 @@ div {
     margin-top: 120px;
 }
 
-h1{
+h1 {
     color: red;
     font-size: 88px;
     font-weight: 700;
 }
-h4{
+
+h4 {
     color: red;
     font-size: 24px;
     font-weight: 500;
     margin-top: 48px;
 }
-h2{
+
+h2 {
     font-size: 48px;
     font-weight: 700;
     margin-top: 16px;
     margin-bottom: 48px;
+}
+
+.offer-section{
+    margin-bottom: 120px;
+}
+
+/* Midnight-party section style */
+
+.midnight-party {
+    width: 1320px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-image: url("../assets/images/Vectorrr.png");
+    display: flex;
+    gap: 40px;
+}
+
+.leftside-content{
+    width: 50%;
+    
+}
+
+.rightside-content{
+    width: 50%;
+    
+}
+.midnight-invitation{
+    color: white;
+    margin-left: 126px;
+    text-align: left;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.midnight-description{
+    color: white;
+    margin-left: 126px;
+    text-align: left;
+}
+.join-now{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 158px;
+}
+img{
+    height: 464px;
 }
