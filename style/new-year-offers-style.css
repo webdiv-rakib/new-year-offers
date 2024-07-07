@@ -1,33 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Cover Page Design */
-.cover-page {
-    color: white;
+body{
     font-family: Merriweather;
-    padding: 177px 344px;
-    background-image:url("../assets/images/Banner\ Image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 50px;
-
-}
-
-.new-year {
-    text-align: center;
-    font-size: 32px;
-    font-weight: 400;
-    margin: 0;
-}
-
-.new-year-description {
-    text-align: center;
-    font-size: 72px;
-    font-weight: 900px;
-    margin: 0;
-    margin-top: 16px;
 }
