@@ -144,6 +144,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 
 }
 
@@ -174,4 +175,36 @@ img {
     background: rgb(255, 0, 0);
     padding: 16px 32px 16px 32px;
     border: none;
+}
+
+/* Coming soon section style */
+.coming-soon-section {
+    width: 1320px;
+    height: 463px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-section-1 {
+    width: 463px;
+    height: 463px;
+    border: 2px solid green;
+    /* text-align: left; */
+}
+
+.ellipse {
+    width: 364.84px;
+    height: 364.84px;
+    /* box-sizing: circle;
+    border: 15px solid rgb(255, 0, 0); */
+    border: 1px solid gainsboro;
+    border-style: dashed;
+}
+
+.image-2024 {
+    width: 140px;
+    height: 140px;
 }
