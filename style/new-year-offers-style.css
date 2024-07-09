@@ -95,6 +95,7 @@ h2 {
     background-image: url("../assets/images/Vectorrr.png");
     display: flex;
     gap: 40px;
+    margin-bottom: 120px;
 }
 
 .leftside-content {
@@ -137,19 +138,16 @@ img {
 .join-now-section {
     width: 1320px;
     height: 482px;
-    border: 2px solid red;
     margin: 0 auto;
-    margin-top: 120px;
     border-radius: 16px;
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.place-section {
-    color: black;
-    text-align: center;
-}
-
-.join-now {
+.join-now-title {
     font-size: 32px;
     font-weight: 600;
 }
@@ -164,4 +162,16 @@ img {
 
 .time {
     color: #FF0000;
+}
+
+.time-title {
+    margin-bottom: 48px;
+}
+
+.btn-join-now {
+    color: white;
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 16px 32px 16px 32px;
+    border: none;
 }
